@@ -370,10 +370,11 @@ button[ type="submit"] {
 }
 @media (max-width: 767px) {
     .about .container .srv .about-content .col .image:after {
-        border-bottom: none;
+        border: none;
         height: calc(100% + 80px);
         width: 80px;
-        right: -120px;
+        right: -40px;
+        background-color: var(--main-color);
     }
 }
 .about .container .srv .about-content .col:last-of-type {
